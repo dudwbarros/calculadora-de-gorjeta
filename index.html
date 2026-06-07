@@ -14,13 +14,13 @@
         <img src="./images/logo.svg" alt="Logo do Splitter">
     </header>
 
-    <main>
+<main>
         <section class="informacoes">
             <form action="">
                 <div class="conta">
                     <label for="conta">Conta</label>
                     <div>
-                        <img src="./images/icon-dollar.svg" alt="ícone do cifrão">
+                        <img src="./images/icon-dollar.svg" alt="icone do cifrao">
                         <input type="number" name="conta" id="conta" placeholder="0">
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                     <label for="outra">Selecione a gorjeta %</label>
 
                     <div>
-                        <input type="button" value="5%">
+                        <input type="button" value="5%"> 
                         <input type="button" value="10%">
                         <input type="button" value="15%">
                         <input type="button" value="25%">
@@ -37,41 +37,43 @@
                         <input type="number" name="outra" id="outra" placeholder="Outra">
                     </div>
                 </div>
-                
+
                 <div class="pessoas">
-                    <label for="pessoas">Quantidade de Pessoas</label>
-                    <p id="erro">Não pode ser zero</p>
-                    <div>
-                        <img src="./images/icon-person.svg" alt="ícone da pessoa">
+                    <div class="textos">
+                        <label for="conta">Conta</label>
+                        <p id="erro">Não pode ser zero</p>
+                    </div>
+                    <div class="input-box">
+                        <img src="./images/icon-person.svg" alt="icone da pessoa">
                         <input type="number" name="pessoas" id="pessoas" placeholder="0">
                     </div>
                 </div>
             </form>
         </section>
 
-        <section class="resultados">
-            <div>
-                <div class="gorjeta-total">
-                <p>
-                    <strong>Gorjeta</strong> <br>
-                    / pessoa
-                </p>
+       <section class="resultados">
+        <div>
+            <div class="gorjeta-total">
+            <p>
+                <strong>Gorjeta</strong> <br>
+                / pessoa
+            </p>
 
-                <strong>R$ 0.00</strong>
-            </div>
+            <strong>R$ 0.00</strong>
+        </div>
 
-            <div class="total">
-                <p>
-                    <strong>Total</strong> <br>
-                    / pessoa
-                </p>
+        <div class="total">
+            <p>
+                <strong>Total</strong> <br>
+                / pessoa
+            </p>
 
-                <strong>R$ 0.00</strong>
-            </div>
-            </div>
+            <strong>R$ 0.00</strong>
+        </div>
+        </div>
 
-            <button>Limpar</button>
-        </section>
+        <button>Limpar</button>
+       </section>
     </main>
 </body>
 </html>
